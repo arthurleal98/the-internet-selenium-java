@@ -1,0 +1,3 @@
+com\steps\AddRemoveElementsSteps.class
+com\steps\BasicAuthSteps.class
+com\runners\TestRunner.class
