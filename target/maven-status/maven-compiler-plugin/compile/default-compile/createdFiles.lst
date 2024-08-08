@@ -1,7 +1,0 @@
-com\pages\HomePage.class
-com\pages\AddRemovePage.class
-com\utils\WebDriverFactory.class
-com\utils\Hooks.class
-com\pages\BrokenImagesPage.class
-com\pages\BasicAuthPage.class
-com\utils\ActionsBot.class
