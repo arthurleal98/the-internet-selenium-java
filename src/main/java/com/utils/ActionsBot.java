@@ -59,4 +59,9 @@ public class ActionsBot {
         actions = new Actions(driver);
         actions.sendKeys(org.openqa.selenium.Keys.ENTER).build().perform();
     }
+
+    public void pressionarEsc() {
+        actions = new Actions(driver);
+        actions.sendKeys(org.openqa.selenium.Keys.ESCAPE).build().perform();
+    }
 }

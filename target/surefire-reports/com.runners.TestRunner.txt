@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 5, Errors: 3, Skipped: 0, Time elapsed: 204.634 s <<< FAILURE! - in com.runners.TestRunner
+O nome da página é Add/Remove Elements(Add/Remove Elements)  Time elapsed: 4.014 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Add/Remove Elements]> but was:<[The Internet]>
+
+O botão de "Delete" tem a mesma cor de fundo que o "Add Element"(Add/Remove Elements)  Time elapsed: 4.519 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+
+Verificar se o login obtem sucesso com usuário e senha corretos(Pagina de Basic Auth)  Time elapsed: 4.957 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [533d3abf-5ea8-4eb6-855f-27801e8815d7, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0.3, moz:accessibilityChecks: false, moz:buildID: 20240725162350, moz:debuggerAddress: 127.0.0.1:15920, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9124, moz:profile: C:\Users\Arthur\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15920/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 533d3abf-5ea8-4eb6-855f-27801e8815d7
+
+Verificar se o login obtem erro com usuário e senha incorretos(Pagina de Basic Auth)  Time elapsed: 7.293 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [22516a07-2b4f-48b8-aa75-2f0e33885fa1, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0.3, moz:accessibilityChecks: false, moz:buildID: 20240725162350, moz:debuggerAddress: 127.0.0.1:32637, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4132, moz:profile: C:\Users\Arthur\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32637/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 22516a07-2b4f-48b8-aa75-2f0e33885fa1
+
+Verificar se o login obtem erro com usuário e senha em branco(Pagina de Basic Auth)  Time elapsed: 4.284 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Congratulations! You must have the proper credentials.]> but was:<[]>
+
+Verificar se o login obtem erro com usuário e senha nulos(Pagina de Basic Auth)  Time elapsed: 4.264 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Congratulations! You must have the proper credentials.]> but was:<[]>
+
+Verificar se as imagens não estão quebradas(Broken Images)  Time elapsed: 6.011 s  <<< FAILURE!
+java.lang.AssertionError
+
+Verificar se todas as imagens têm tamanhos diferentes(Broken Images)  Time elapsed: 6.099 s  <<< FAILURE!
+java.lang.AssertionError
+

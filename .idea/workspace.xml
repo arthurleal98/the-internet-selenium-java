@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="021d1e0a-afe8-42b7-aa22-e44e4d2eed8b" name="Changes" comment="Primeiro commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/BrokenImagesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/steps/BrokenImagesSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BrokenImages.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/BasicAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/BasicAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/ActionsBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/ActionsBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/AddRemoveElementsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steps/AddRemoveElementsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/BasicAuthSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steps/BasicAuthSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BasicAuth.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/BasicAuthPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/BasicAuthPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/ActionsBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/ActionsBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-08-06T17-56-04_199-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-08-06T17-56-04_199-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/AddRemoveElementsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/AddRemoveElementsSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/BasicAuthSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/BasicAuthSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AddRemoveElements.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AddRemoveElements.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BasicAuth.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/BasicAuth.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;arthurleal98&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/arthurleal98/the-internet-selenium-java.git&quot;,
+    &quot;accountId&quot;: &quot;a525ef9f-3ec5-474c-91ce-0fe016201941&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/7.18.1/cucumber-core-7.18.1.jar!/io/cucumber/core/backend/CucumberInvocationTargetException.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/7.18.1/cucumber-java-7.18.1.jar!/io/cucumber/java/Invoker.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectCucumberState">
+    <option name="groupTag" value="false" />
+  </component>
+  <component name="ProjectId" id="2kCICkTtCO2SOxsOlw2STjdGOBq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main (1).executor": "Debug",
+    "Application.Main (2).executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Cucumber Java.Feature: ABTesting.executor": "Run",
+    "Cucumber Java.Feature: AddRemoveElements.executor": "Run",
+    "Cucumber Java.Feature: BasicAuth.executor": "Run",
+    "Cucumber Java.Feature: BrokenImages.executor": "Run",
+    "Cucumber Java.Scenario: Acessar a página de imagens quebradas com sucesso.executor": "Run",
+    "Cucumber Java.Scenario: Adicionar e remover elementos.executor": "Debug",
+    "Cucumber Java.Scenario: O botão \"Add Element\" tem a cor de fundo \"rgb(43, 166, 203)\".executor": "Run",
+    "Cucumber Java.Scenario: O botão \"Delete\" tem a cor de fundo \"rgb(43, 166, 203)\".executor": "Run",
+    "Cucumber Java.Scenario: O nome da página é Add/Remove Elements.executor": "Run",
+    "Cucumber Java.Scenario: O plano de fundo da página é branco.executor": "Run",
+    "Cucumber Java.Scenario: Os botões de \"Delete\" têm o mesmo tamanho.executor": "Run",
+    "Cucumber Java.Scenario: Validar que o botão \"Delete\" não remove elementos que não foram adicionados.executor": "Run",
+    "Cucumber Java.Scenario: Validar que os botões \"Add Element\" e \"Delete\" são visíveis.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se as imagens estão quebradas.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se as imagens não estão quebradas.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se há imagens na tela.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se há um limite de 50 elementos.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se o botão \"Add Element\" está visível.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se o botão \"Delete\" está visível após adicionar um elemento.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se o login obtem erro com usuário e senha em branco.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se o login obtem erro com usuário e senha incorretos.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se o login obtem sucesso com usuário e senha corretos.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se quando estou na página pela primeira vez o botão \"Delete\" não está visível.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se todas as imagens têm o mesmo tamanho.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se todas as imagens têm tamanhos diferentes.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se é possível acessar a página com usuário e senha.executor": "Run",
+    "Cucumber Java.Scenario: Verificar se é possível deletar todos os elementos em qualquer ordem.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "Maven.demo [clean,compile].executor": "Run",
+    "Maven.demo [clean,test].executor": "Run",
+    "Maven.demo [clean:clean].executor": "Run",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.demo [compile].executor": "Run",
+    "Maven.demo [test,-DskipTests=true,clean].executor": "Run",
+    "Maven.demo [test,-DskipTests=true].executor": "Run",
+    "Maven.demo [test,-Pskip-tests,clean].executor": "Run",
+    "Maven.demo [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Arthur/Documents/the-internet-selenium-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/steps" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/asdf" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/asd" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean" />
+      <command value="mvn clean compile" />
+      <command value="mvn clean:clean" />
+      <command value="mvn test -DskipTests=true clean" />
+      <command value="mvn test -Pskip-tests clean" />
+      <command value="mvn test -DskipTests=true " />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verificar se há imagens na tela">
+    <configuration name="Scenario: Acessar a página de imagens quebradas com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BrokenImages.feature" />
+      <option name="GLUE" value="com.steps com.utils" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="demo" />
+      <option name="NAME_FILTER" value="^Acessar a página de imagens quebradas com sucesso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Acessar a página de imagens quebradas com sucesso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Acessar a página de imagens quebradas com sucesso" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verificar se as imagens estão quebradas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BrokenImages.feature" />
+      <option name="GLUE" value="com.steps com.utils" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="demo" />
+      <option name="NAME_FILTER" value="^Verificar se as imagens estão quebradas$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verificar se as imagens estão quebradas$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verificar se as imagens estão quebradas" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verificar se há imagens na tela" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BrokenImages.feature" />
+      <option name="GLUE" value="com.steps com.utils" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="demo" />
+      <option name="NAME_FILTER" value="^Verificar se há imagens na tela$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verificar se há imagens na tela$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verificar se há imagens na tela" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verificar se todas as imagens têm o mesmo tamanho" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BrokenImages.feature" />
+      <option name="GLUE" value="com.steps com.utils" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="demo" />
+      <option name="NAME_FILTER" value="^Verificar se todas as imagens têm o mesmo tamanho$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verificar se todas as imagens têm o mesmo tamanho$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verificar se todas as imagens têm o mesmo tamanho" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verificar se todas as imagens têm tamanhos diferentes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BrokenImages.feature" />
+      <option name="GLUE" value="com.steps com.utils" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="demo" />
+      <option name="NAME_FILTER" value="^Verificar se todas as imagens têm tamanhos diferentes$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verificar se todas as imagens têm tamanhos diferentes$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verificar se todas as imagens têm tamanhos diferentes" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Verificar se há imagens na tela" />
+        <item itemvalue="Cucumber Java.Scenario: Verificar se as imagens estão quebradas" />
+        <item itemvalue="Cucumber Java.Scenario: Acessar a página de imagens quebradas com sucesso" />
+        <item itemvalue="Cucumber Java.Scenario: Verificar se todas as imagens têm tamanhos diferentes" />
+        <item itemvalue="Cucumber Java.Scenario: Verificar se todas as imagens têm o mesmo tamanho" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="021d1e0a-afe8-42b7-aa22-e44e4d2eed8b" name="Changes" comment="" />
+      <created>1722781007014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722781007014</updated>
+      <workItem from="1722975299575" duration="81000" />
+      <workItem from="1722975388899" duration="162000" />
+      <workItem from="1722975715145" duration="1556000" />
+      <workItem from="1722989795829" duration="662000" />
+    </task>
+    <task id="LOCAL-00001" summary="Primeiro commit">
+      <option name="closed" value="true" />
+      <created>1722991352171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722991352171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pages/BasicAuthPage.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

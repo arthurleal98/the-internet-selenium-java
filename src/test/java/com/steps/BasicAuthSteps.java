@@ -2,12 +2,15 @@ package com.steps;
 
 import com.pages.BasicAuthPage;
 import com.utils.ActionsBot;
+import com.utils.Hooks;
 import io.cucumber.java.Before;
+import io.cucumber.java.bs.A;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import io.cucumber.datatable.DataTable;
 import org.openqa.selenium.WebDriver;
@@ -19,17 +22,16 @@ import java.util.Map;
 
 public class BasicAuthSteps {
 
-    static WebDriver driver;
+    private final WebDriver driver;
     List<Map<String, String>> logins;
     static BasicAuthPage basicAuthPage;
     static ActionsBot actionsBot;
 
-    @Before
-    public static void setUp() {
-        driver = new FirefoxDriver();
+    public BasicAuthSteps() {
+        driver = Hooks.getDriver();
         driver.manage().window().maximize();
         actionsBot = new ActionsBot(driver);
-        driver.get("https://the-internet.herokuapp.com/basic_auth");
+        basicAuthPage = new BasicAuthPage(driver);
 
     }
 
@@ -41,30 +43,19 @@ public class BasicAuthSteps {
 
     @Then("eu devo ver a mensagem {string}")
     public void euDevoVerAMensagem(String arg0) {
-
+        Assert.assertEquals("Congratulations! You must have the proper credentials.", basicAuthPage.obterMessagemDeSucesso());
     }
 
-
     @Given("eu acesso a pagina")
-    public void euAcessoAPagina() {
+    public void feuAcessoAPagina() {
     }
 
     @And("realizo o login")
     public void realizoOLogin() {
-
-        for(Map<String, String> login : logins) {
-            String usuario = login.get("usuario");
-            String senha = login.get("senha");
-            System.out.println("Usuário: " + usuario);
-            System.out.println("Senha: " + senha);
-
-            basicAuthPage.realizarLogin(usuario, senha);
-        }
+        basicAuthPage.realizarLogin(logins);
+        euDevoVerAMensagem("Congratulations! You must have the proper credentials.");
 
     }
 
-    @AfterClass
-    public static void tearDown() {
-        driver.quit();
-    }
+
 }

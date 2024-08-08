@@ -1,42 +1,35 @@
 package com.steps;
 
+
 import com.pages.AddRemovePage;
 import com.pages.HomePage;
 import com.utils.ActionsBot;
-import io.cucumber.java.AfterAll;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
+import com.utils.Hooks;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-import org.junit.After;
-import org.junit.AfterClass;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 
 public class AddRemoveElementsSteps {
-    static WebDriver driver;
+    private final WebDriver driver;
     static HomePage homePage;
     static AddRemovePage addRemovePage;
     static ActionsBot actionsBot;
 
-    @Before
-    public static void setUp() {
-        driver = new FirefoxDriver();
-        driver.manage().window().maximize();
+    public AddRemoveElementsSteps() {
+        driver = Hooks.getDriver();
+        homePage = new HomePage(driver);
         actionsBot = new ActionsBot(driver);
-        driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
+        addRemovePage = new AddRemovePage(driver);
+
     }
 
 
     @Given("que estou na pagina {string}")
     public void que_estou_na_pagina_add_remove_elements(String string) {
-        addRemovePage = new AddRemovePage(driver);
 
+        driver.get("http://the-internet.herokuapp.com/add_remove_elements/");
         //Verifica se a página atual tem o título "Add/Remove Elements"
         Assert.assertTrue(actionsBot.verificarSeOTextoEstaPresente("Add/Remove Elements"));
     }
@@ -127,10 +120,6 @@ public class AddRemoveElementsSteps {
         Assert.assertEquals("rgb(255, 255, 255)", actionsBot.obterCorDeFundoDaPagina());
     }
 
-    @After
-    public void tearDown() {
-        driver.quit();
-    }
 
 
 
