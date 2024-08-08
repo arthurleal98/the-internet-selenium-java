@@ -1,0 +1,193 @@
+# Created at 2024-08-08T15:33:40.981
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+
+# Created at 2024-08-08T15:33:42.536
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:43.270
+Unexpected IOException with stream:   [32mWhen [0m[32meu clico no botão [0m[32m[1m"Add Element"[0m[32m [0m[32m[1m3[0m[32m vezes[0m    [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao_vezes(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:33:43.735
+Unexpected IOException with stream:   [32mAnd [0m[32meu clico no botão [0m[32m[1m"Delete"[0m[32m [0m[32m[1m2[0m[32m vezes[0m          [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao_vezes(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:33:43.741
+Unexpected IOException with stream:   [32mThen [0m[32meu devo ver o botão [0m[32m[1m"Delete"[0m[32m [0m[32m[1m1[0m[32m vez[0m         [90m# com.steps.AddRemoveElementsSteps.eu_devo_ver_o_botao_vez(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:33:44.390
+Unexpected IOException: 6,1,Add/Remove Elements,Adicionar e remover elementos(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:44.391
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se o bot\00E3o "Add Element" est\00E1 vis\00EDvel(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:44.398
+Unexpected IOException with stream: 
+Scenario: Verificar se o botão "Add Element" está visível [90m# src/test/resources/features/AddRemoveElements.feature:10[0m
+
+
+# Created at 2024-08-08T15:33:47.929
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m         [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:47.945
+Unexpected IOException with stream:   [32mThen [0m[32meu devo ver o botão [0m[32m[1m"Add Element"[0m[32m visível[0m          [90m# com.steps.AddRemoveElementsSteps.eu_devo_ver_o_botao_visivel(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:48.588
+Unexpected IOException: 6,1,Add/Remove Elements,Verificar se o bot\00E3o "Add Element" est\00E1 vis\00EDvel(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:48.589
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se quando estou na p\00E1gina pela primeira vez o bot\00E3o "Delete" n\00E3o est\00E1 vis\00EDvel(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:48.593
+Unexpected IOException with stream: 
+Scenario: Verificar se quando estou na página pela primeira vez o botão "Delete" não está visível [90m# src/test/resources/features/AddRemoveElements.feature:14[0m
+
+
+# Created at 2024-08-08T15:33:52.134
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m                                                 [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:52.149
+Unexpected IOException with stream:   [32mThen [0m[32meu não devo ver o botão [0m[32m[1m"Delete"[0m[32m visível[0m                                                   [90m# com.steps.AddRemoveElementsSteps.eu_nao_devo_ver_o_botao_visivel(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:52.782
+Unexpected IOException: 6,1,Add/Remove Elements,Verificar se quando estou na p\00E1gina pela primeira vez o bot\00E3o "Delete" n\00E3o est\00E1 vis\00EDvel(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:52.783
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se o bot\00E3o "Delete" est\00E1 vis\00EDvel ap\00F3s adicionar um elemento(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:52.787
+Unexpected IOException with stream: 
+Scenario: Verificar se o botão "Delete" está visível após adicionar um elemento [90m# src/test/resources/features/AddRemoveElements.feature:18[0m
+
+
+# Created at 2024-08-08T15:33:56.265
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m                               [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:56.517
+Unexpected IOException with stream:   [32mWhen [0m[32meu clico no botão [0m[32m[1m"Add Element"[0m                                          [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:56.534
+Unexpected IOException with stream:   [32mThen [0m[32meu devo ver o botão [0m[32m[1m"Delete"[0m[32m visível[0m                                     [90m# com.steps.AddRemoveElementsSteps.eu_devo_ver_o_botao_visivel(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:33:57.090
+Unexpected IOException: 6,1,Add/Remove Elements,Verificar se o bot\00E3o "Delete" est\00E1 vis\00EDvel ap\00F3s adicionar um elemento(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:57.090
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se h\00E1 um limite de 50 elementos(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:33:57.095
+Unexpected IOException with stream: 
+Scenario: Verificar se há um limite de 50 elementos [90m# src/test/resources/features/AddRemoveElements.feature:23[0m
+
+
+# Created at 2024-08-08T15:34:00.481
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m   [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:12.589
+Unexpected IOException with stream:   [32mWhen [0m[32meu clico no botão [0m[32m[1m"Add Element"[0m[32m [0m[32m[1m50[0m[32m vezes[0m     [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao_vezes(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:34:12.609
+Unexpected IOException with stream:   [32mThen [0m[32meu devo ver [0m[32m[1m50[0m[32m botões [0m[32m[1m"Delete"[0m[32m visíveis[0m      [90m# com.steps.AddRemoveElementsSteps.eu_devo_ver_botoes_visiveis(java.lang.Integer,java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:13.167
+Unexpected IOException: 6,1,Add/Remove Elements,Verificar se h\00E1 um limite de 50 elementos(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:34:13.168
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se o bot\00E3o "Delete" remove o elemento(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:34:13.172
+Unexpected IOException with stream: 
+Scenario: Verificar se o botão "Delete" remove o elemento [90m# src/test/resources/features/AddRemoveElements.feature:28[0m
+
+
+# Created at 2024-08-08T15:34:16.538
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m         [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:16.791
+Unexpected IOException with stream:   [32mWhen [0m[32meu clico no botão [0m[32m[1m"Add Element"[0m                    [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:17.022
+Unexpected IOException with stream:   [32mAnd [0m[32meu clico no botão [0m[32m[1m"Delete"[0m                          [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:17.030
+Unexpected IOException with stream:   [32mThen [0m[32meu não devo ver o botão [0m[32m[1m"Delete"[0m[32m visível[0m           [90m# com.steps.AddRemoveElementsSteps.eu_nao_devo_ver_o_botao_visivel(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:17.675
+Unexpected IOException: 6,1,Add/Remove Elements,Verificar se o bot\00E3o "Delete" remove o elemento(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:34:17.676
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se o bot\00E3o "Delete" remove o elemento correto(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:34:17.679
+Unexpected IOException with stream: 
+Scenario: Verificar se o botão "Delete" remove o elemento correto [90m# src/test/resources/features/AddRemoveElements.feature:34[0m
+
+
+# Created at 2024-08-08T15:34:21.062
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m                 [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+
+# Created at 2024-08-08T15:34:21.763
+Unexpected IOException with stream:   [32mWhen [0m[32meu clico no botão [0m[32m[1m"Add Element"[0m[32m [0m[32m[1m3[0m[32m vezes[0m                    [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao_vezes(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:34:22.214
+Unexpected IOException with stream:   [32mAnd [0m[32meu clico no botão [0m[32m[1m"Delete"[0m[32m [0m[32m[1m2[0m[32m vezes[0m                          [90m# com.steps.AddRemoveElementsSteps.eu_clico_no_botao_vezes(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:34:22.218
+Unexpected IOException with stream:   [32mThen [0m[32meu devo ver o botão [0m[32m[1m"Delete"[0m[32m [0m[32m[1m1[0m[32m vez[0m                         [90m# com.steps.AddRemoveElementsSteps.eu_devo_ver_o_botao_vez(java.lang.String,java.lang.Integer)[0m
+
+
+# Created at 2024-08-08T15:34:22.830
+Unexpected IOException: 6,1,Add/Remove Elements,Verificar se o bot\00E3o "Delete" remove o elemento correto(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:34:22.830
+Unexpected IOException: 5,1,Add/Remove Elements,Verificar se \00E9 poss\00EDvel adicionar e remover elementos indefinidamente(Add/Remove Elements),null,null,null
+
+
+# Created at 2024-08-08T15:34:22.835
+Unexpected IOException with stream: 
+Scenario: Verificar se é possível adicionar e remover elementos indefinidamente [90m# src/test/resources/features/AddRemoveElements.feature:40[0m
+
+
+# Created at 2024-08-08T15:34:26.233
+Unexpected IOException with stream:   [32mGiven [0m[32mque estou na pagina [0m[32m[1m"Add/Remove Elements"[0m                               [90m# com.steps.AddRemoveElementsSteps.que_estou_na_pagina_add_remove_elements(java.lang.String)[0m
+
+

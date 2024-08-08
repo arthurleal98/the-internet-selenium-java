@@ -1,3 +1,5 @@
+
+
 Feature: Broken Images
 
   Scenario: Verificar se as imagens estão quebradas
